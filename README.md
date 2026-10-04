@@ -1,9 +1,8 @@
 # Prakul Komarla
 
-<!-- Animated Hero Banner -->
 <p align="center">
   <img
-    src="./assets/hero.gif"
+    src="./assets/hero.png"
     alt="Prakul Komarla — AI, Agentic Systems and Full-Stack Development"
     width="100%"
   />
