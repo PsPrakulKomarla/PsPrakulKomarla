@@ -54,11 +54,6 @@ Entity-level semantic checkpoint context plugin for Entire CLI.
 **Tech:** C · Semantic Context · CLI Integration · MIT License  
 [Repo](https://github.com/PsPrakulKomarla/Impact-Pilot)
 
-**Negobuy** (earlier entry)  
-AI-powered procurement agent for vendor discovery and negotiation.  
-**Tech:** Python · AI · Automation  
-[Repo](https://github.com/PsPrakulKomarla/Negobuy)
-
 ---
 
 ## 🛠️ Tech Stack
@@ -72,7 +67,7 @@ AI-powered procurement agent for vendor discovery and negotiation.
   <a href="https://www.typescriptlang.org">
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   </a>
-</a>
+</p>
 
 ### AI & Intelligent Systems
 
