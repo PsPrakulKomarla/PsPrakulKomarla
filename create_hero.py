@@ -129,14 +129,6 @@ try:
     )
     print(f"\nSaved: {gif_path}")
     
-    # Save static fallback PNG
-    png_path = os.path.join(assets_dir, 'hero.png')
-    frames[0].save(
-        png_path,
-        optimize=True
-    )
-    print(f"Saved: {png_path}")
-    
     # Verify the GIF
     verify_img = Image.open(gif_path)
     print(f"\nGIF verification:")

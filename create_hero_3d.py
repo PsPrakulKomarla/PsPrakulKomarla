@@ -14,7 +14,6 @@ WHITE_COLOR = (255, 255, 255)
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 SEQ_DIR = os.path.join(OUTPUT_DIR, "frame_seq")
 OUTPUT_GIF = os.path.join(OUTPUT_DIR, "hero.gif")
-OUTPUT_PNG = os.path.join(OUTPUT_DIR, "hero.png")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(SEQ_DIR, exist_ok=True)
@@ -238,11 +237,6 @@ for fc in range(FRAME_COUNT):
 
 print(f"\nGenerated {len(frames)} frames")
 
-# Save PNG fallback
-if frames:
-    frames[0].save(OUTPUT_PNG, optimize=True)
-    print(f"PNG: {OUTPUT_PNG}")
-
 # Save GIF
 if frames:
     frames[0].save(OUTPUT_GIF,
@@ -269,4 +263,3 @@ if frames:
 print("\n=== DONE ===")
 print(f"SEQ: {SEQ_DIR}")
 print(f"GIF: {OUTPUT_GIF}")
-print(f"PNG: {OUTPUT_PNG}")

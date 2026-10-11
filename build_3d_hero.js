@@ -661,19 +661,6 @@ function createHUDPanel(labelIdx) {
   panel.position.set(0, 0, 0.1);
   group.add(panel);
   
-  // Add subtle border
-  const border = new Mesh(
-    new PlaneGeometry(32, 12),
-    new MeshBasicMaterial({
-      color: 0xffffff,
-      transparent: true,
-      opacity: 0.05,
-      linewidth: 1
-    })
-  );
-  border.position.set(0, 0, 0.15);
-  group.add(border);
-  
   group.userData.labelIdx = labelIdx;
   return group;
 }
@@ -876,7 +863,6 @@ function captureFrame() {
     console.log('');
     console.log('Output locations:');
     console.log('  - assets/hero.gif (final optimized)');
-    console.log('  - assets/hero.png (static fallback)');
     console.log('');
     console.log('Frame count: ' + FRAMES_TO_CAPTURE);
     console.log('Frame rate: 12fps');
@@ -903,7 +889,6 @@ console.log('  - Physically-based materials and lighting');
 console.log('');
 console.log('Target output:');
 console.log('  - assets/hero.gif (8s, 1600x500, 12fps)');
-console.log('  - assets/hero.png (static fallback)');
 console.log('');
 console.log('Key 3D features:');
 console.log('  - Perspective camera with orbital movement');

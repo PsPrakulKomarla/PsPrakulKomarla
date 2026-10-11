@@ -1,5 +1,3 @@
-# Prakul Komarla
-
 <p align="center">
 <img
     src="./assets/hero.gif"
