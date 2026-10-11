@@ -1,0 +1,24 @@
+{
+  "name": "psprakulkomarla",
+  "version": "1.0.0",
+  "description": "<!-- Animated Hero Banner --> <p align=\"center\">   <img     src=\"./assets/hero.gif\"     alt=\"Prakul Komarla — AI, Agentic Systems and Full-Stack Development\"     width=\"100%\"   /> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsPrakulKomarla/PsPrakulKomarla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PsPrakulKomarla/PsPrakulKomarla/issues"
+  },
+  "homepage": "https://github.com/PsPrakulKomarla/PsPrakulKomarla#readme",
+  "dependencies": {
+    "three": "^0.186.1"
+  }
+}

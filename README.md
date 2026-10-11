@@ -1,11 +1,11 @@
 # Prakul Komarla
 
 <p align="center">
-  <img
-    src="./assets/hero.png"
-    alt="Prakul Komarla — AI, Agentic Systems and Full-Stack Development"
+<img
+    src="./assets/hero.gif"
+    alt="Prakul Komarla 3D Hero Animation - AI, Agentic Systems and Full-Stack Development"
     width="100%"
-  />
+/>
 </p>
 
 <h1 align="center">Prakul Komarla</h1>
